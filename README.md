@@ -43,15 +43,6 @@ Recall: 86% (non-anomalies), 85% (anomalies)
 F1-Score: 86%
 Explanation: Logistic Regression showed a balanced trade-off between precision and recall, making it a simple but reliable model.
 
-Naive Bayes
-
-Accuracy (after tuning): 78%
-Precision: 76% (non-anomalies), 79% (anomalies)
-Recall: 78% (non-anomalies), 75% (anomalies)
-F1-Score: 77%
-Explanation: Although useful, Naive Bayes performed less effectively due to its assumptions about feature independence, which didn’t fully apply to this dataset.
-Project Workflow
-
 Data Preprocessing: Clean and preprocess the dataset, including handling missing values, scaling features, and managing time-series data.
 Model Training: Train multiple machine learning models and apply resampling techniques such as SMOTE and RandomUnderSampler to handle class imbalance.
 Model Evaluation: Evaluate the models based on accuracy, precision, recall, F1-score, and confusion matrix, both before and after hyperparameter tuning.
